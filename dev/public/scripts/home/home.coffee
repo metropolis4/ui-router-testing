@@ -1,3 +1,4 @@
+# Initialize and configure home module
 angular.module 'home', ['ui.router']
 
 .config ($stateProvider, $urlRouterProvider) ->

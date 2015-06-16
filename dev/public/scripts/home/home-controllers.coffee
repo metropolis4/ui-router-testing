@@ -1,3 +1,4 @@
+# Controllers for home module
 angular.module 'home'
 
 .controller 'homeController', ($scope) ->
