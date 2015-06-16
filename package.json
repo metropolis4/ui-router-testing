@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "body-parser": "^1",
+    "coffee-script": "^1.9.3",
+    "express": "^4",
+    "jade": "^1"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "watch": "coffee -o prod/ -cw dev/ & coffee -wc app.coffee"
+  }
+}
