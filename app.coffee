@@ -16,4 +16,4 @@ app.get '/templates/:templateDir/:templateName', indexController.templates
 
 # Create Server
 server = app.listen 4270, ->
-  console.log "Express server listening..."
+  console.log "Express server listening on port #{server.address().port}"
