@@ -21,7 +21,7 @@
   app.get('/templates/:templateDir/:templateName', indexController.templates);
 
   server = app.listen(4270, function() {
-    return console.log("Express server listening...");
+    return console.log("Express server listening on port " + (server.address().port));
   });
 
 }).call(this);
